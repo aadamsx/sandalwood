@@ -10,11 +10,14 @@
   "author": "Aaron Adams <aadams99@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.5.7",
     "mongoose-timestamp": "^0.6.0",
     "restify": "^8.3.2",
-    "restify-errors": "^8.0.0"
+    "restify-errors": "^8.0.0",
+    "restify-jwt-community": "^1.0.12"
   },
   "devDependencies": {
     "nodemon": "^1.19.0"
